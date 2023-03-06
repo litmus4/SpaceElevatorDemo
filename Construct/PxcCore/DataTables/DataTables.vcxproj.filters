@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TextTable">
+      <UniqueIdentifier>{3d3ec385-3fa0-4340-8e4c-90f6754a9883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OtherTable">
+      <UniqueIdentifier>{db376783-1820-4f38-bcdb-881ac5a263b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StoryTable">
+      <UniqueIdentifier>{68fc1818-dfb0-49ee-926d-e5a04f46da41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MultiCostTable">
+      <UniqueIdentifier>{949ed498-fa36-4b1c-b718-9c6e15a7990e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoadDefines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTable\TextTableCenter.h">
+      <Filter>TextTable</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTable\TextRow.h">
+      <Filter>TextTable</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherTable\GlobalParamRow.h">
+      <Filter>OtherTable</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherTable\OtherTableCenter.h">
+      <Filter>OtherTable</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTable\CaptionRow.h">
+      <Filter>TextTable</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTable\StoryTextRow.h">
+      <Filter>TextTable</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherTable\InputKeyRow.h">
+      <Filter>OtherTable</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherTable\InputActionNameRow.h">
+      <Filter>OtherTable</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryTable\QuestRow.h">
+      <Filter>StoryTable</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryTable\StoryTableCenter.h">
+      <Filter>StoryTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiCostTable\IndustryRow.h">
+      <Filter>MultiCostTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiCostTable\IndustryTypeRow.h">
+      <Filter>MultiCostTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiCostTable\OccupationRow.h">
+      <Filter>MultiCostTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiCostTable\OccupationTypeRow.h">
+      <Filter>MultiCostTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiCostTable\MultiCostTableCenter.h">
+      <Filter>MultiCostTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiCostTable\MajorRow.h">
+      <Filter>MultiCostTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiCostTable\MajorTypeRow.h">
+      <Filter>MultiCostTable</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TextTable\TextTableCenter.cpp">
+      <Filter>TextTable</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTable\TextRow.cpp">
+      <Filter>TextTable</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherTable\GlobalParamRow.cpp">
+      <Filter>OtherTable</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherTable\OtherTableCenter.cpp">
+      <Filter>OtherTable</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadDefines.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTable\CaptionRow.cpp">
+      <Filter>TextTable</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTable\StoryTextRow.cpp">
+      <Filter>TextTable</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherTable\InputKeyRow.cpp">
+      <Filter>OtherTable</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherTable\InputActionNameRow.cpp">
+      <Filter>OtherTable</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryTable\QuestRow.cpp">
+      <Filter>StoryTable</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryTable\StoryTableCenter.cpp">
+      <Filter>StoryTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCostTable\IndustryRow.cpp">
+      <Filter>MultiCostTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCostTable\IndustryTypeRow.cpp">
+      <Filter>MultiCostTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCostTable\OccupationRow.cpp">
+      <Filter>MultiCostTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCostTable\OccupationTypeRow.cpp">
+      <Filter>MultiCostTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCostTable\MultiCostTableCenter.cpp">
+      <Filter>MultiCostTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCostTable\MajorRow.cpp">
+      <Filter>MultiCostTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCostTable\MajorTypeRow.cpp">
+      <Filter>MultiCostTable</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
