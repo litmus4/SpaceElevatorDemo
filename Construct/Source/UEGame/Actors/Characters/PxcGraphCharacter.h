@@ -19,7 +19,8 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
+	virtual void PossessedBy(AController* pNewController) override;
 	// Called every frame
 	virtual void Tick(float fDeltaTime) override;
 

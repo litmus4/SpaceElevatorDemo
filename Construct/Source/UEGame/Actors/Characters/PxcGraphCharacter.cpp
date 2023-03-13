@@ -2,6 +2,7 @@
 
 
 #include "Actors/Characters/PxcGraphCharacter.h"
+#include "Actors/Controllers/PxcAIController.h"
 
 // Sets default values
 APxcGraphCharacter::APxcGraphCharacter()
@@ -16,6 +17,18 @@ void APxcGraphCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+}
+
+void APxcGraphCharacter::PossessedBy(AController* pNewController)
+{
+	Super::PossessedBy(pNewController);
+
+	APxcAIController* pController = Cast<APxcAIController>(pNewController);
+	if (pController)
+	{
+		pController->SpawnLogicRole();
+		//
+	}
 }
 
 // Called every frame
