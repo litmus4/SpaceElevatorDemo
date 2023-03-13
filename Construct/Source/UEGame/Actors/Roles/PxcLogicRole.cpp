@@ -2,6 +2,7 @@
 
 
 #include "Actors/Roles/PxcLogicRole.h"
+#include "Actors/Characters/PxcGraphCharacter.h"
 #include "Framework/PxcGameConfig.h"
 #include "Framework/PxcStaticResourceSystem.h"
 #include "Framework/PxcBlueprintLibrary.h"
@@ -16,7 +17,20 @@ APxcLogicRole::APxcLogicRole()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	m_pGraphCharacter = nullptr;
+
 	m_pPASC = CreateDefaultSubobject<UPxcAbilitySystemComponent>(TEXT("PASComp"));
+}
+
+APxcGraphCharacter* APxcLogicRole::GetTheGraphCharacter()
+{
+	return m_pGraphCharacter;
+}
+
+void APxcLogicRole::SetTheGraphCharacter(APxcGraphCharacter* pCharacter)
+{
+	check(IsValid(pCharacter));
+	m_pGraphCharacter = pCharacter;
 }
 
 UPxcAbilitySystemComponent* APxcLogicRole::GetAbilitySystemComponent()

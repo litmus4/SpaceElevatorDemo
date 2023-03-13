@@ -7,6 +7,7 @@
 #include "AbilitySystemComponent.h"
 #include "PxcLogicRole.generated.h"
 
+class APxcGraphCharacter;
 class UPxcAbilitySystemComponent;
 
 UCLASS()
@@ -17,6 +18,11 @@ class UEGAME_API APxcLogicRole : public AActor
 public:	
 	// Sets default values for this actor's properties
 	APxcLogicRole();
+
+	UFUNCTION(BlueprintPure)
+	APxcGraphCharacter* GetTheGraphCharacter();
+
+	void SetTheGraphCharacter(APxcGraphCharacter* pCharacter);
 
 	UFUNCTION(BlueprintPure, Category = GameplayAbility)
 	virtual UPxcAbilitySystemComponent* GetAbilitySystemComponent();
@@ -30,6 +36,9 @@ protected:
 
 	UFUNCTION()
 	void OnGameplayEffectRemoved(const FActiveGameplayEffect& ActiveEffect);
+
+	UPROPERTY(BlueprintReadOnly)
+	APxcGraphCharacter* m_pGraphCharacter;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Components)
 	UPxcAbilitySystemComponent* m_pPASC;

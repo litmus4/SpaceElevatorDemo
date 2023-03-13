@@ -6,6 +6,8 @@
 #include "AIController.h"
 #include "PxcAIController.generated.h"
 
+class APxcLogicRole;
+
 /**
  * 
  */
@@ -14,4 +16,16 @@ class UEGAME_API APxcAIController : public AAIController
 {
 	GENERATED_BODY()
 	
+public:
+	UFUNCTION(BlueprintPure)
+	APxcLogicRole* GetLogicRole();
+
+	void SpawnLogicRole();
+
+protected:
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	TSubclassOf<APxcLogicRole> m_cLogicRole;
+
+	UPROPERTY(BlueprintReadOnly)
+	APxcLogicRole* m_pLogicRole = nullptr;
 };
