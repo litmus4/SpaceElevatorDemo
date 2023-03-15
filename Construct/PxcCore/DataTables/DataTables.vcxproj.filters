@@ -25,6 +25,9 @@
     <Filter Include="MultiCostTable">
       <UniqueIdentifier>{949ed498-fa36-4b1c-b718-9c6e15a7990e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SpaceElevatorTable">
+      <UniqueIdentifier>{62de3f77-90c4-4082-a685-e08fbfcb23ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -84,6 +87,9 @@
     <ClInclude Include="MultiCostTable\MajorTypeRow.h">
       <Filter>MultiCostTable</Filter>
     </ClInclude>
+    <ClInclude Include="SpaceElevatorTable\SpecialStructureRow.h">
+      <Filter>SpaceElevatorTable</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TextTable\TextTableCenter.cpp">
@@ -139,6 +145,9 @@
     </ClCompile>
     <ClCompile Include="MultiCostTable\MajorTypeRow.cpp">
       <Filter>MultiCostTable</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceElevatorTable\SpecialStructureRow.cpp">
+      <Filter>SpaceElevatorTable</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
