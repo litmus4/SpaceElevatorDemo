@@ -36,9 +36,15 @@
     <ClInclude Include="StoryDef.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="SpaceElevatorDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CoreConstantsDef.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceElevatorDef.cpp">
       <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>

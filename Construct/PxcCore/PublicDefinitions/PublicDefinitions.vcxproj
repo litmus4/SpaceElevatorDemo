@@ -151,11 +151,13 @@
     <ClInclude Include="CoreConstantsDef.h" />
     <ClInclude Include="EventKeyDef.h" />
     <ClInclude Include="Globalization.h" />
+    <ClInclude Include="SpaceElevatorDef.h" />
     <ClInclude Include="SpecialFileDef.h" />
     <ClInclude Include="StoryDef.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CoreConstantsDef.cpp" />
+    <ClCompile Include="SpaceElevatorDef.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
