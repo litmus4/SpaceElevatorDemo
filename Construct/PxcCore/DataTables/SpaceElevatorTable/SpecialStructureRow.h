@@ -1,5 +1,6 @@
 #pragma once
 #include "PxcUtil/CSVTableOperator.h"
+#include "PublicDefinitions/SpaceElevatorDef.h"
 
 class CSpecialStructureRow
 {
@@ -14,5 +15,5 @@ public:
 	double m_dZLocation;//米（10单位）
 	double m_dHeight;//单位（0.1米）
 	double m_dOffset;//-1到1
-	bool m_bBase;//是否是基座
+	SpaceElevatorDef::EEmbedType m_eEmbedType;//嵌入类型
 };

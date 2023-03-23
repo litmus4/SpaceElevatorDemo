@@ -90,6 +90,9 @@
     <ClInclude Include="SpaceElevatorTable\SpecialStructureRow.h">
       <Filter>SpaceElevatorTable</Filter>
     </ClInclude>
+    <ClInclude Include="SpaceElevatorTable\SpaceElevatorTableCenter.h">
+      <Filter>SpaceElevatorTable</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TextTable\TextTableCenter.cpp">
@@ -147,6 +150,9 @@
       <Filter>MultiCostTable</Filter>
     </ClCompile>
     <ClCompile Include="SpaceElevatorTable\SpecialStructureRow.cpp">
+      <Filter>SpaceElevatorTable</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceElevatorTable\SpaceElevatorTableCenter.cpp">
       <Filter>SpaceElevatorTable</Filter>
     </ClCompile>
   </ItemGroup>

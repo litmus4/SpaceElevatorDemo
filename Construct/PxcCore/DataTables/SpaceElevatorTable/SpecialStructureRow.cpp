@@ -18,7 +18,5 @@ void CSpecialStructureRow::Read(PxcUtil::CCSVTableOperator& tabop)
 	tabop.GetValue("ZLocation", m_dZLocation);
 	tabop.GetValue("Height", m_dHeight);
 	tabop.GetValue("Offset", m_dOffset);
-	int iBool = 0;
-	tabop.GetValue("IsBase", iBool);
-	m_bBase = (bool)iBool;
+	tabop.GetValue("EmbedType", *(int*)&m_eEmbedType);
 }
