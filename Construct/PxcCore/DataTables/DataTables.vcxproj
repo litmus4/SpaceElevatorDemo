@@ -175,6 +175,7 @@
     <ClInclude Include="OtherTable\InputActionNameRow.h" />
     <ClInclude Include="OtherTable\InputKeyRow.h" />
     <ClInclude Include="OtherTable\OtherTableCenter.h" />
+    <ClInclude Include="SpaceElevatorTable\CarNumberRow.h" />
     <ClInclude Include="SpaceElevatorTable\SpaceElevatorTableCenter.h" />
     <ClInclude Include="SpaceElevatorTable\SpecialStructureRow.h" />
     <ClInclude Include="StoryTable\QuestRow.h" />
@@ -197,6 +198,7 @@
     <ClCompile Include="OtherTable\InputActionNameRow.cpp" />
     <ClCompile Include="OtherTable\InputKeyRow.cpp" />
     <ClCompile Include="OtherTable\OtherTableCenter.cpp" />
+    <ClCompile Include="SpaceElevatorTable\CarNumberRow.cpp" />
     <ClCompile Include="SpaceElevatorTable\SpaceElevatorTableCenter.cpp" />
     <ClCompile Include="SpaceElevatorTable\SpecialStructureRow.cpp" />
     <ClCompile Include="StoryTable\QuestRow.cpp" />

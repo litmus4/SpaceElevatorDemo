@@ -1,0 +1,6 @@
+ID,显示名称文本,资产名(编号贴图),轿厢类型,是否上行,停靠站点(特殊结构ID),最大速度(m/s),加速度(m/s2),减速度(m/s2),擦肩而过的轿厢车次ID,擦肩而过的Z轴高度
+ID,DisplayText,AssetPath,CarType,IsUp,Dockings,Velocity,Acceleration,Deceleration,RubbingShoulders,RubbingZs
+int,int,string,int,int,array[int],float,float,float,array[int],array[float]
+-1,-1,,0,1,,0,0,0,,
+1,1001,,2,1,[1;4],26460,88.2,49,,
+2,1002,,2,0,[4;1],26460,49,88.2,,

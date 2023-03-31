@@ -11,4 +11,13 @@ enum EEmbedType
 	EEmbedBase
 };
 
+//½ÎÏáÀàĞÍ
+enum ECarType
+{
+	ECarAny,
+	ECarMilitary,
+	ECarMilitaryExpedite,
+	ECarCivilian
+};
+
 }
