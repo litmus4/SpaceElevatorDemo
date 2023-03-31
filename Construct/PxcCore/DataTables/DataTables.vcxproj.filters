@@ -93,6 +93,9 @@
     <ClInclude Include="SpaceElevatorTable\SpaceElevatorTableCenter.h">
       <Filter>SpaceElevatorTable</Filter>
     </ClInclude>
+    <ClInclude Include="SpaceElevatorTable\CarNumberRow.h">
+      <Filter>SpaceElevatorTable</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TextTable\TextTableCenter.cpp">
@@ -153,6 +156,9 @@
       <Filter>SpaceElevatorTable</Filter>
     </ClCompile>
     <ClCompile Include="SpaceElevatorTable\SpaceElevatorTableCenter.cpp">
+      <Filter>SpaceElevatorTable</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceElevatorTable\CarNumberRow.cpp">
       <Filter>SpaceElevatorTable</Filter>
     </ClCompile>
   </ItemGroup>
